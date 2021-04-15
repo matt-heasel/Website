@@ -1,0 +1,12 @@
+#container{
+    border: solid 1% black;
+    width: 100%;
+    height: 100%;
+}
+#menuBar{
+    border: solid 1% black;
+    width: 50%;
+}
+p{
+    size: 5em;
+}
