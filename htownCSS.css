@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 p {
     font-style: italic;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.25em;
 }
 
 #title {
@@ -8,7 +12,24 @@ p {
     font-size: 2em;
     color: maroon;
 }
+.realtersList{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.realter{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    flex-direction: row;
+    width: 100%;
+    padding: 2%;
+}
 
+img{
+    width: 300px;
+    height: 300px;
+}
 .listing {
     width: 50%;
     text-align: left;
