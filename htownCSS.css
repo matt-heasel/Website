@@ -33,6 +33,12 @@ img {
 }
 .abtIMG{
     width: 600px;
+    height: 400px;
+}
+#contactUs{
+    display: flex;
+    border: maroon solid 1px;
+    width: 100%;
 }
 
 .listing {
@@ -40,6 +46,7 @@ img {
     border-bottom: solid 1px maroon;
     flex-direction: row;
     padding: 10px;
+    width: 100%;
 }
 
 #content {
@@ -74,14 +81,18 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    width: 100%;
 }
 
 #menuBar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: maroon;
+    color: eee;
 }
 
 #menuBar a.active {
     background-color: #4CAF50;
     color: white;
+}
+button{
+    width: 100%;
 }
