@@ -74,6 +74,10 @@ img {
     background-color: #333;
     overflow: hidden;
 }
+#aboutImage{
+    width: 1000px;
+    height: 600px;
+}
 
 #menuBar a {
     color: #f2f2f2;
