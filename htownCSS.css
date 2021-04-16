@@ -43,10 +43,18 @@ img {
 
 .listing {
     display: flex;
-    border-bottom: solid 1px maroon;
-    flex-direction: row;
+    flex-direction: column;
     padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+#contentListing{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 #content {
@@ -54,6 +62,7 @@ img {
     justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
+
 }
 
 #container {
